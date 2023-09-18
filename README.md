@@ -7,15 +7,15 @@ To handle the data I used [PostgresQL](https://www.postgresql.org).
 ## How to run it:
 In order to run this project you will need [Docker](https://www.docker.com/) and Java 17 - or higher.
 
-In order to run this project the simpler way would be to make:
+In order to run this project the simpler way would be to make the following:
 
 ```shell
 make run
 ```
 
-This way you will start a container running the database and the app itself. Everything will start automatically.<br>
+This way you will start a container running the database and the app. Everything will start automatically.<br>
 
-To stop it, you can simply make:
+To stop it, you can simply do the following:
 ```shell
 make stop
 ```
@@ -44,7 +44,7 @@ Once your application has started you can go to`localhost:8080/graphiql` and try
          }
        }
     ```
-3. Get ALl Authors:
+3. Get All Authors:
     ```graphql
        query {
            authors {
